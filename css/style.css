@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  word-spacing: 2px;
+  background-color: #4ca1af;
+  background-image: linear-gradient(135deg, #4ca1af 0%, #3d808b 100%);
+}
+
+.color-1 {
+  color: #3d808b;
+}
+
+.color-2 {
+  color: #4ca1af;
+}
+
+.navbar {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #dcdcdc;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #fff;
+  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #fff;
+  }
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #555;
+  }
+}
+
+.main-header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-text {
+  font-family: "Kaushan Script", cursive;
+}
+
+.about {
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  margin: auto;
+  max-width: 460px;
+}
+
+.about-content img {
+  width: 180px;
+  height: auto;
+}
+
+.project-content {
+  margin: auto;
+  max-width: 980px;
+}
+
+.project-content img {
+  width: 380px;
+  height: auto;
+}
+
+.img-box {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.img-box img {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.img-box img:hover {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+@media (max-width: 500px) {
+  .project-content .img-box img {
+    width: 280px;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .project-content .img-box img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+.contact-content {
+  margin: auto;
+  max-width: 640px;
+}
+
+.contact-content .button {
+  border: 1px solid #4ca1af;
+  background-color: #4ca1af;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.contact-content a:hover {
+  border: 1px solid #4ca1af;
+  background-color: #ffffff;
+  color: #4ca1af;
+  text-decoration: none;
+}
+
+.footer-content {
+  color: #fff;
+  margin: auto;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-content a:hover {
+  color: #dcdcdc;
+}
+/*# sourceMappingURL=style.css.map */
