@@ -34,7 +34,10 @@ body {
 .navbar .navbar-brand {
   color: #fff;
 }
-
+a img {
+  width: 40px;
+  height: auto;
+}
 /* Change navbar styling on scroll */
 .navbar.active {
   background: #fff;
